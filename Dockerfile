@@ -4,8 +4,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Variables for paths inside the image
 ARG BIN_DIR=/usr/local/bin
-ARG PROVISION_DIR=${BIN_DIR}/provision
-ARG CONFIG_DIR=/app/config
 ARG APP_DIR=/app
 
 
